@@ -5,14 +5,21 @@
   "language": "en_US",
   "features": ["Communities", "DevelopmentWave", "EnableSetPasswordInApi"],
   "settings": {
-      "experienceBundleSettings": {
-          "enableExperienceBundleMetadata": true
-      },
-      "communitiesSettings": {
-          "enableNetworksEnabled": true
-      },
-      "lightningExperienceSettings": {
-          "enableS1DesktopEnabled": true
-      }
+    "experienceBundleSettings": {
+        "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+        "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "apexSettings": {
+        "enableApexApprovalLockUnlock": true
+    },
+    "userEngagementSettings": {
+        "enableOrchestrationInSandbox": true,
+        "enableShowSalesforceUserAssist": false
+    }
   }
 }

@@ -21,3 +21,7 @@ sfdx force:data:record:update -s User -w "Name='User User'" -v "Languagelocaleke
 
 echo "Pushing changes to scratch org"
 execute sfdx force:source:push
+
+echo "Assigning permission"
+execute sfdx force:user:permset:assign -n dreamhouse
+execute sfdx force:user:permset:assign -n ecars

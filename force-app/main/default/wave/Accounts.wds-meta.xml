@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>My_Story</application>
+    <masterLabel>Account Training Dataset</masterLabel>
+    <templateAssetSourceName>Accounts</templateAssetSourceName>
+</WaveDataset>
